@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ForeverDoyge</string>
+    <string name="title_activity_test">Test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Name...">Name...</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="sizes">
+        <item>SMALL</item>
+        <item>MEDIUM</item>
+        <item>LARGE</item>
+        <item>XLARGE</item>
+    </string-array>
+
+    <string-array name="skirtsizes">
+        <item>WAIST SIZE 24</item>
+        <item>WAIST SIZE 25</item>
+        <item>WAIST SIZE 26</item>
+        <item>WAIST SIZE 27</item>
+        <item>WAIST SIZE 28</item>
+        <item>WAIST SIZE 29</item>
+        <item>WAIST SIZE 30</item>
+        <item>WAIST SIZE 31</item>
+        <item>WAIST SIZE 32</item>
+        <item>WAIST SIZE 33</item>
+        <item>WAIST SIZE 34</item>
+        <item>WAIST SIZE 35</item>
+        <item>WAIST SIZE 36</item>
+        <item>WAIST SIZE 37</item>
+        <item>WAIST SIZE 38</item>
+        <item>WAIST SIZE 39</item>
+        <item>WAIST SIZE 40</item>
+        <item>WAIST SIZE 40+(MESSAGE YOUR EXACT SIZE)</item>
+    </string-array>
+
+    <string-array name="dashikisizes">
+        <item>XX SMALL(Chest size 28-30)</item>
+        <item>X SMALL(Chest size 32-34)</item>
+        <item>SMALL(Chest size 36-38)</item>
+        <item>MEDIUM(Chest size 40-42)</item>
+        <item>LARGE(Chest size 44-46)</item>
+    </string-array>
+</resources>

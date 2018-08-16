@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:background="#000000"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.dennisthicklin.foreverdoyge.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/bar" />
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/cart"
+            android:foreground="@drawable/ripple_effect_noborder"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:background="@drawable/fdlogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:foreground="@drawable/ripple_effect_noborder"
+            android:background="@drawable/list_shadow"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/tshirt_button"
+                android:background="@drawable/tshirts_imgbutton"
+                android:foreground="@drawable/ripple_effect"
+                />
+
+            <Button
+                android:id="@+id/lux_button"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/lux_imgbutton"
+                android:foreground="@drawable/ripple_effect"/>
+            <Button
+                android:id="@+id/vintage_button"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/vintage_imgbutton"
+                android:foreground="@drawable/ripple_effect"/>
+            <Button
+                android:id="@+id/fdy2_button"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="150dp"
+                android:background="@drawable/fdy2_imgbutton"
+                android:foreground="@drawable/ripple_effect"/>
+            <Button
+                android:id="@+id/youth_button"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/youth_button"
+                android:foreground="@drawable/ripple_effect"/>
+            <Button
+                android:id="@+id/customs_button"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/customs_button"
+                android:foreground="@drawable/ripple_effect"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#000000"
+        android:foreground="@drawable/ripple_effect"
+        android:id="@+id/navigationView"
+        app:menu="@menu/sidebar_menu">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

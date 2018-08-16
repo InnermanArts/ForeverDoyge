@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "850933677525",
+    "firebase_url": "https://foreverdoyge-70bc5.firebaseio.com",
+    "project_id": "foreverdoyge-70bc5",
+    "storage_bucket": "foreverdoyge-70bc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850933677525:android:68a82188101f8e6e",
+        "android_client_info": {
+          "package_name": "com.example.dennisthicklin.foreverdoyge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850933677525-h1o8oisins0tfbnj4flrhe1t9l9et4pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_uEpOp1L3xQSlUPmcUVvpS6aEWAhOFdI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

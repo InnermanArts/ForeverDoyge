@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/customs_background"
+    tools:context="com.example.dennisthicklin.foreverdoyge.CustomsActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="75dp"
+        >
+
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/cart"
+            android:foreground="@drawable/ripple_effect_noborder"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:background="@drawable/fdlogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:foreground="@drawable/ripple_effect_noborder"
+            android:background="@drawable/list_shadow"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/contact_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="30dp"
+            android:src="@drawable/customs_header"/>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/imageSlider"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:layout_height="200dp">
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/customs_info"/>
+    </RelativeLayout>
+</LinearLayout>
